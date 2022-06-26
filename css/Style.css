@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+* {
+margin: 0;
+padding: 0;
+outline: 0;
+}
+
+.rectangle {
+    position: absolute;
+width: 100%;
+height: 79px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+}
+.Background {
+    z-index: -1;
+    position: absolute;
+width: 100%;
+height: 100%;
+background-image: url("../assets/fr-minecraft_OH5T_jabfwi8.png");
+}
+.Background2 {
+    z-index: -1;
+    position: absolute;
+width: 100%;
+height: 100%;
+background-image: url("../assets/sunset.png");
+}
+.Background3 {
+    z-index: -1;
+    position: absolute;
+width: 100%;
+height: 100%;
+background-image: url("../assets/16261770030_a847d827ef_b.png");
+}
+.title a{
+    position: absolute;
+width: 162px;
+height: 54px;
+left: 41px;
+top: 12px;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.rectangle2 {
+    position: absolute;
+width: 160px;
+height: 47px;
+left: 50%;
+top: 19px;
+
+background: rgba(90, 149, 236, 0.8);
+border-radius: 8px;
+}
+.play a {
+    position: absolute;
+width: 61px;
+height: 30px;
+left: 52.5%;
+top: 24px;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.rectangle3 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 147px;
+top: 383px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.book {
+    position: absolute;
+width: 200px;
+height: 202px;
+left: 62px;
+top: 82px;
+}
+.wiki a{
+    
+    position: absolute;
+    width: 90px;
+    height: 54px;
+    left: 117px;
+    top: 319px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.rectangle3:hover {
+    transition: 0.1s;
+    box-sizing: border-box;
+
+position: absolute;
+width: 324px;
+height: 402px;
+left: 141px;
+top: 380px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 5px solid #ffffffa8;
+box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.rectangle4 {
+    
+    position: absolute;
+    width: 324px;
+    height: 402px;
+    left: 716px;
+    top: 597px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 80px;
+}
+.rectangle5 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 1366px;
+top: 260px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.rectangle4:hover {
+    transition: 0.1s;
+    box-sizing: border-box;
+
+position: absolute;
+width: 324px;
+height: 402px;
+left: 716px;
+top: 597px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 5px solid #ffffffa8;
+box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.rectangle5:hover {
+    transition: 0.1s;
+    position: absolute;
+    width: 324px;
+    height: 402px;
+    left: 1366px;
+    top: 260px;
+    border: 5px solid #ffffffa8;
+box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 80px;
+}
+.rectangle6 {
+    
+position: absolute;
+width: 1439px;
+height: 648px;
+left: 230px;
+top: 277px;
+
+background: linear-gradient(359.35deg, #5A95EC 1.13%, #9BC2FC 98.87%);
+border-radius: 16px;
+}
+.rectangle7 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 396px;
+top: 382px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.windows {
+    position: absolute;
+width: 208px;
+height: 198px;
+left: 58px;
+top: 142px;
+
+}
+.windowstitle {
+    position: absolute;
+width: 197px;
+height: 54px;
+left: 63px;
+top: 47px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.rectangle8 {
+    position: absolute;
+width: 330px;
+height: 54px;
+left: 393px;
+top: 798px;
+
+background: rgba(255, 255, 255, 0.02);
+box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+border-radius: 80px;
+}
+.telewindows {
+    
+position: absolute;
+width: 230px;
+height: 54px;
+left: 78px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.telewindows2 {
+    position: absolute;
+width: 40px;
+height: 41.03px;
+left: 21px;
+top: 6px;
+
+}
+.rectangle9 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 1164px;
+top: 382px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.macos {
+    position: absolute;
+width: 208px;
+height: 198px;
+left: 58px;
+top: 142px;
+
+}
+.macostitle {
+    
+position: absolute;
+width: 153px;
+height: 54px;
+left: 88px;
+top: 56px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+.rectangle10 {
+    position: absolute;
+width: 330px;
+height: 54px;
+left: 1161px;
+top: 798px;
+
+background: rgba(255, 255, 255, 0.02);
+box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+
+border-radius: 80px;
+}
+.telemac {
+    position: absolute;
+width: 230px;
+height: 54px;
+left: 78px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.telemac2 {
+    position: absolute;
+width: 40px;
+height: 41.03px;
+left: 21px;
+top: 6px;
+
+}
+.bonus {
+    position: absolute;
+width: 198px;
+height: 212px;
+left: 63px;
+top: 59px;
+
+}
+.bonustx a {
+    position: absolute;
+width: 283px;
+height: 54px;
+left: 75px;
+top: 300px;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.rectangle12 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 390px;
+top: 298px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.player1 {
+    position: absolute;
+width: 194px;
+height: 362px;
+left: 53px;
+top: 30px;
+
+}
+.rectangle13 {
+    position: absolute;
+width: 324px;
+height: 402px;
+left: 788px;
+top: 298px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.player2 {
+    position: absolute;
+width: 336px;
+height: 396px;
+left: -36px;
+top: 6px;
+}
+.rectangle14 {
+    
+position: absolute;
+width: 324px;
+height: 402px;
+left: 1186px;
+top: 298px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.player3 {
+    position: absolute;
+width: 265px;
+height: 389px;
+left: 9px;
+top: 0px;
+
+}
+.rectangle15 {
+    position: absolute;
+width: 320px;
+height: 402px;
+left: 490px;
+top: 431px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.vip {
+    
+position: absolute;
+width: 198px;
+height: 212px;
+left: 61px;
+top: 72px;
+
+}
+.vip2 {
+    position: absolute;
+width: 63px;
+height: 108px;
+left: 128px;
+top: 244px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.rectangle16 {
+    position: absolute;
+width: 320px;
+height: 402px;
+left: 1089px;
+top: 431px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+
+border-radius: 80px;
+}
+.pass {
+ 
+position: absolute;
+width: 167px;
+height: 170px;
+left: 81px;
+top: 93px;
+
+}
+.pass2 {
+    position: absolute;
+width: 373px;
+height: 108px;
+left: -27px;
+top: 269px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.pass3 {
+    position: absolute;
+width: 866px;
+height: 47px;
+left: 57px;
+top: 1172px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+z-index: 1;
+color: #000000;
+}
+.whitefond {
+    position: absolute;
+    width: 100%;
+height: 780px;
+left: 0px;
+top: 392px;
+z-index: -1;
+background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 27.86%);
+}
+.white {
+    
+position: absolute;
+width: 100%;
+height: 780px;
+left: 0px;
+top: 1169px;
+z-index: -1;
+background: #FFFFFF;
+}
+::-webkit-scrollbar {
+    width: 0%;
+    height: 0%;
+}
+.bar {
+    position: absolute;
+width: 1676px;
+height: 13px;
+left: 112px;
+top: 1559px;
+
+background: #A4A4A4;
+}
+.barprogress {
+    position: absolute;
+width: 114px;
+height: 13px;
+left: 0px;
+top: 0px;
+
+background: #258781;
+}
+.frame1 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 146px;
+top: 1347px;
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame2 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 556px;
+top: 1347px;
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame3 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 966px;
+top: 1347px;
+
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame4 {
+    
+position: absolute;
+width: 149px;
+height: 193px;
+left: 1376px;
+top: 1347px;
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame5 {
+    
+position: absolute;
+width: 149px;
+height: 193px;
+left: 351px;
+top: 1585px;
+
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame6 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 765px;
+top: 1585px;
+
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame7 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 1179px;
+top: 1585px;
+
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.frame8 {
+    position: absolute;
+width: 149px;
+height: 193px;
+left: 1593px;
+top: 1585px;
+
+background: rgba(53, 53, 53, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.startpass {
+    position: absolute;
+width: 98.56px;
+height: 99.85px;
+left: 235.6px;
+top: 1515px;
+transform: rotate(45deg);
+}
+.battlepass {
+    cursor:crosshair;
+}
