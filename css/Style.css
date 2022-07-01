@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
-* {
-margin: 0;
+* {margin: 0;
 padding: 0;
 outline: 0;
 }
+*::-webkit-scrollbar-thumb {
+    background-color: #212121;
+    border-radius: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: #171717;
+  }
+*::-webkit-scrollbar {
+    width: 9px;
+  }
+.Background {
+    background-color: #171717;
 
-.rectangle {
-    position: absolute;
+}
+.Background1 {
+    background-color: #171717;
+    height: 3259px;
+}
+.nav {
+    transition: 2s;
+    z-index: 1;
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
 width: 100%;
 height: 79px;
 left: 0px;
@@ -16,182 +36,283 @@ background: rgba(255, 255, 255, 0.1);
 box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
 }
-.Background {
-    z-index: -1;
-    position: absolute;
+.nav2 {
+    transition: 2s;
+    z-index: 1;
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
 width: 100%;
-height: 100%;
-background-image: url("../assets/fr-minecraft_OH5T_jabfwi8.png");
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #171717;
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
 }
-.Background2 {
-    z-index: -1;
-    position: absolute;
-width: 100%;
-height: 100%;
-background-image: url("../assets/sunset.png");
-}
-.Background3 {
-    z-index: -1;
-    position: absolute;
-width: 100%;
-height: 100%;
-background-image: url("../assets/16261770030_a847d827ef_b.png");
-}
-.title a{
-    position: absolute;
+.toptitle {
+    z-index: 2;
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
 width: 162px;
 height: 54px;
 left: 41px;
 top: 12px;
-text-decoration: none;
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 900;
 font-size: 36px;
 line-height: 54px;
 color: #FFFFFF;
+
 }
-.rectangle2 {
-    position: absolute;
+.playdiv {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
 width: 160px;
 height: 47px;
-left: 50%;
-top: 19px;
+left: 870px;
+top: 16px;
 
-background: rgba(90, 149, 236, 0.8);
+background: rgba(225, 125, 33, 0.8);
 border-radius: 8px;
-}
-.play a {
-    position: absolute;
+}.play a {
+    z-index: 2;
+    text-decoration: none;
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
 width: 61px;
 height: 30px;
-left: 52.5%;
+left: 919px;
 top: 24px;
-text-decoration: none;
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 900;
 font-size: 20px;
 line-height: 30px;
+color: #FFFFFF;
+}
+.logo {
+    
+position: absolute;
+width: 80px;
+height: 80px;
+left: 41px;
+top: 115px;
+
+}
+.wiki {
+    position: absolute;
+width: 60px;
+height: 36px;
+left: 1262px;
+top: 155px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.vote {
+    position: absolute;
+width: 66px;
+height: 36px;
+left: 1370px;
+top: 155px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.boutique {
+    position: absolute;
+width: 125px;
+height: 36px;
+left: 1480px;
+top: 155px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+
+}
+.title {
+    position: absolute;
+width: 443px;
+height: 202px;
+left: 140px;
+top: 358px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 144px;
 
 color: #FFFFFF;
 }
-.rectangle3 {
+.subtitle {
     position: absolute;
-width: 324px;
-height: 402px;
-left: 147px;
-top: 383px;
+width: 621px;
+height: 81px;
+left: 140px;
+top: 505px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.vipframe {
+    transition: 2s;
+    
+    position: absolute;
+width: 450px;
+height: 380px;
+left: 240px;
+top: 734px;
+
+background: linear-gradient(234.51deg, #FFBF43 0%, #D04BFF 100%);
+}
+.vipframe2 {
+    transition: 2s;
+opacity: 0%;
+    position: absolute;
+width: 450px;
+height: 380px;
+left: 40px;
+top: 734px;
+background: linear-gradient(234.51deg, #FFBF43 0%, #D04BFF 100%);
+}
+.vip {
+    position: absolute;
+width: 123px;
+height: 50px;
+left: 164px;
+top: 60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.avantagevip {
+    position: absolute;
+width: 230px;
+height: 75px;
+left: 49px;
+top: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+.prix {
+    position: absolute;
+width: 105px;
+height: 43px;
+left: 310px;
+top: 322px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.art1 {
+    position: absolute;
+width: 360px;
+height: 211px;
+left: 828px;
+top: 739px;
 
 background: rgba(255, 255, 255, 0.1);
 box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
-border-radius: 80px;
 }
-.book {
+.art2 {
     position: absolute;
-width: 200px;
-height: 202px;
-left: 62px;
-top: 82px;
-}
-.wiki a{
-    
-    position: absolute;
-    width: 90px;
-    height: 54px;
-    left: 117px;
-    top: 319px;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 54px;
-    color: #FFFFFF;
-}
-.rectangle3:hover {
-    transition: 0.1s;
-    box-sizing: border-box;
-
-position: absolute;
-width: 324px;
-height: 402px;
-left: 141px;
-top: 380px;
-
-background: rgba(255, 255, 255, 0.1);
-border: 5px solid #ffffffa8;
-box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.rectangle4 {
-    
-    position: absolute;
-    width: 324px;
-    height: 402px;
-    left: 716px;
-    top: 597px;
-    
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(6px);
-    border-radius: 80px;
-}
-.rectangle5 {
-    position: absolute;
-width: 324px;
-height: 402px;
-left: 1366px;
-top: 260px;
+width: 360px;
+height: 211px;
+left: 1292px;
+top: 739px;
 
 background: rgba(255, 255, 255, 0.1);
 box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
-border-radius: 80px;
 }
-.rectangle4:hover {
-    transition: 0.1s;
-    box-sizing: border-box;
-
-position: absolute;
-width: 324px;
-height: 402px;
-left: 716px;
-top: 597px;
+.art3 {
+    position: absolute;
+width: 360px;
+height: 211px;
+left: 828px;
+top: 1026px;
 
 background: rgba(255, 255, 255, 0.1);
-border: 5px solid #ffffffa8;
-box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
-border-radius: 80px;
 }
-.rectangle5:hover {
-    transition: 0.1s;
+.art4 {
     position: absolute;
-    width: 324px;
-    height: 402px;
-    left: 1366px;
-    top: 260px;
-    border: 5px solid #ffffffa8;
-box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(6px);
-    border-radius: 80px;
+width: 360px;
+height: 211px;
+left: 1292px;
+top: 1026px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
 }
-.rectangle6 {
-    
-position: absolute;
+.frame {
+    position: absolute;
 width: 1439px;
 height: 648px;
 left: 230px;
 top: 277px;
 
-background: linear-gradient(359.35deg, #5A95EC 1.13%, #9BC2FC 98.87%);
+background: linear-gradient(359.35deg, #E17D21 1.13%, #EAA362 98.87%);
 border-radius: 16px;
 }
-.rectangle7 {
+.aindex {
+    
+position: absolute;
+width: 48px;
+height: 48px;
+left: 1645px;
+top: 253px;
+}
+.frame2 {
     position: absolute;
 width: 324px;
 height: 402px;
@@ -203,6 +324,63 @@ box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
 border-radius: 80px;
 }
+.frame3 {
+    
+position: absolute;
+width: 324px;
+height: 402px;
+left: 1164px;
+top: 382px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+border-radius: 80px;
+}
+.tele1 {
+    position: absolute;
+width: 330px;
+height: 54px;
+left: 393px;
+top: 798px;
+
+background: rgba(255, 255, 255, 0.02);
+box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+border-radius: 80px;
+}
+.tele2 {
+    position: absolute;
+width: 330px;
+height: 54px;
+left: 1161px;
+top: 798px;
+
+background: rgba(255, 255, 255, 0.02);
+box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+border-radius: 80px;
+}
+.h1tele1 {
+    position: absolute;
+width: 230px;
+height: 54px;
+left: 78px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+
+}
+.imgtele1 {
+    position: absolute;
+width: 40px;
+height: 41.03px;
+left: 21px;
+top: 6px;
+}
 .windows {
     position: absolute;
 width: 208px;
@@ -211,7 +389,7 @@ left: 58px;
 top: 142px;
 
 }
-.windowstitle {
+.h1windows {
     position: absolute;
 width: 197px;
 height: 54px;
@@ -224,430 +402,62 @@ font-weight: 900;
 font-size: 36px;
 line-height: 54px;
 color: #FFFFFF;
+
 }
-.rectangle8 {
+.discord a {
     position: absolute;
-width: 330px;
-height: 54px;
-left: 393px;
-top: 798px;
-
-background: rgba(255, 255, 255, 0.02);
-box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(2px);
-border-radius: 80px;
-}
-.telewindows {
-    
-position: absolute;
-width: 230px;
-height: 54px;
-left: 78px;
-top: 0px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-color: #FFFFFF;
-}
-.telewindows2 {
-    position: absolute;
-width: 40px;
-height: 41.03px;
-left: 21px;
-top: 6px;
-
-}
-.rectangle9 {
-    position: absolute;
-width: 324px;
-height: 402px;
-left: 1164px;
-top: 382px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.macos {
-    position: absolute;
-width: 208px;
-height: 198px;
-left: 58px;
-top: 142px;
-
-}
-.macostitle {
-    
-position: absolute;
-width: 153px;
-height: 54px;
-left: 88px;
-top: 56px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-
-color: #FFFFFF;
-}
-.rectangle10 {
-    position: absolute;
-width: 330px;
-height: 54px;
-left: 1161px;
-top: 798px;
-
-background: rgba(255, 255, 255, 0.02);
-box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(2px);
-
-border-radius: 80px;
-}
-.telemac {
-    position: absolute;
-width: 230px;
-height: 54px;
-left: 78px;
-top: 0px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-color: #FFFFFF;
-}
-.telemac2 {
-    position: absolute;
-width: 40px;
-height: 41.03px;
-left: 21px;
-top: 6px;
-
-}
-.bonus {
-    position: absolute;
-width: 198px;
-height: 212px;
-left: 63px;
-top: 59px;
-
-}
-.bonustx a {
-    position: absolute;
-width: 283px;
-height: 54px;
-left: 75px;
-top: 300px;
+width: 112px;
+height: 36px;
+left: 1649px;
+top: 155px;
 text-decoration: none;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 900;
-font-size: 36px;
-line-height: 54px;
+font-size: 24px;
+line-height: 36px;
 color: #FFFFFF;
+
 }
-.rectangle12 {
+.div {
     position: absolute;
-width: 324px;
-height: 402px;
-left: 390px;
-top: 298px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.player1 {
-    position: absolute;
-width: 194px;
-height: 362px;
-left: 53px;
-top: 30px;
-
-}
-.rectangle13 {
-    position: absolute;
-width: 324px;
-height: 402px;
-left: 788px;
-top: 298px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.player2 {
-    position: absolute;
-width: 336px;
-height: 396px;
-left: -36px;
-top: 6px;
-}
-.rectangle14 {
-    
-position: absolute;
-width: 324px;
-height: 402px;
-left: 1186px;
-top: 298px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.player3 {
-    position: absolute;
-width: 265px;
-height: 389px;
-left: 9px;
-top: 0px;
-
-}
-.rectangle15 {
-    position: absolute;
-width: 320px;
-height: 402px;
-left: 490px;
-top: 431px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.vip {
-    
-position: absolute;
-width: 198px;
-height: 212px;
-left: 61px;
-top: 72px;
-
-}
-.vip2 {
-    position: absolute;
-width: 63px;
-height: 108px;
-left: 128px;
-top: 244px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-text-align: center;
-
-color: #FFFFFF;
-}
-.rectangle16 {
-    position: absolute;
-width: 320px;
-height: 402px;
-left: 1089px;
-top: 431px;
-
-background: rgba(255, 255, 255, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-
-border-radius: 80px;
-}
-.pass {
- 
-position: absolute;
-width: 167px;
-height: 170px;
-left: 81px;
-top: 93px;
-
-}
-.pass2 {
-    position: absolute;
-width: 373px;
-height: 108px;
-left: -27px;
-top: 269px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-text-align: center;
-
-color: #FFFFFF;
-}
-.pass3 {
-    position: absolute;
-width: 866px;
-height: 47px;
-left: 57px;
-top: 1172px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 54px;
-text-align: center;
-z-index: 1;
-color: #000000;
-}
-.whitefond {
-    position: absolute;
-    width: 100%;
-height: 780px;
-left: 0px;
-top: 392px;
-z-index: -1;
-background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 27.86%);
-}
-.white {
-    
-position: absolute;
 width: 100%;
-height: 780px;
+height: 594px;
 left: 0px;
-top: 1169px;
-z-index: -1;
-background: #FFFFFF;
-}
-::-webkit-scrollbar {
-    width: 0%;
-    height: 0%;
-}
-.bar {
-    position: absolute;
-width: 1676px;
-height: 13px;
-left: 112px;
-top: 1559px;
+top: 1326px;
 
-background: #A4A4A4;
+background: #ABACAB;
 }
-.barprogress {
-    position: absolute;
-width: 114px;
-height: 13px;
-left: 0px;
-top: 0px;
-
-background: #258781;
-}
-.frame1 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 146px;
-top: 1347px;
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.frame2 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 556px;
-top: 1347px;
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.frame3 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 966px;
-top: 1347px;
-
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.frame4 {
+.tank {
     
 position: absolute;
-width: 149px;
-height: 193px;
-left: 1376px;
-top: 1347px;
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
+width: 1036px;
+height: 491px;
+left: 84px;
+top: 1377px;
+
 }
-.frame5 {
+.def {
+    position: absolute;
+width: 599px;
+height: 117px;
+left: 1224px;
+top: 1561px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+.opacity {
+    transition: 0.8s;
+    opacity: 100%;
     
-position: absolute;
-width: 149px;
-height: 193px;
-left: 351px;
-top: 1585px;
-
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
 }
-.frame6 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 765px;
-top: 1585px;
-
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.frame7 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 1179px;
-top: 1585px;
-
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.frame8 {
-    position: absolute;
-width: 149px;
-height: 193px;
-left: 1593px;
-top: 1585px;
-
-background: rgba(53, 53, 53, 0.1);
-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(6px);
-border-radius: 80px;
-}
-.startpass {
-    position: absolute;
-width: 98.56px;
-height: 99.85px;
-left: 235.6px;
-top: 1515px;
-transform: rotate(45deg);
-}
-.battlepass {
-    cursor:crosshair;
+.opacity0 {
+    transition: 0.8s;
+    opacity: 0%;
 }
