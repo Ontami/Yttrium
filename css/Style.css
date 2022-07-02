@@ -41,7 +41,41 @@ font-size: 36px;
 line-height: 54px;
 color: #FFFFFF;
 
+
 }
+.twi {
+    position: absolute;
+width: 428px;
+height: 61px;
+left: 0px;
+top: 3188px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.toptitle a {
+    text-decoration: none;
+    position: absolute;
+width: 239px;
+height: 54px;
+left: 9px;
+top: 12px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+color: #FFFFFF;
+
+}
+
 .nav {
 
     position: absolute;
@@ -131,6 +165,16 @@ line-height: 24px;
 
 color: #FFFFFF;
 
+}
+.bar {
+    position: absolute;
+width: 237px;
+height: 18px;
+left: 96px;
+top: 3107px;
+
+background: #FFFFFF;
+border-radius: 80px;
 }
 .boutique {
     position: absolute;
@@ -496,6 +540,25 @@ color: #FFFFFF;
     color: #ffffffa6;   
 
 }
+.bar2 {
+    position: absolute;
+width: 237px;
+height: 18px;
+left: 96px;
+top: 3674px;
+
+background: #FFFFFF;
+border-radius: 80px;
+}
+.live {
+    position: absolute;
+    width: 397px;
+    height: 253px;
+    left: 18px;
+    top: 3335px;
+    
+    background: #FFFFFF;
+}
 @media screen and (min-width: 800px) {
     * {margin: 0;
         padding: 0;
@@ -514,6 +577,38 @@ color: #FFFFFF;
     .Background {
         background-color: #171717;
     
+    }
+    .live {
+position: absolute;
+width: 1105px;
+height: 509px;
+left: 398px;
+top: 2278px;
+
+background: #FFFFFF;
+background: #FFFFFF;
+
+background: #FFFFFF;
+    }
+    .bar2 {
+        position: absolute;
+width: 734px;
+height: 18px;
+left: 583px;
+top: 2885px;
+
+background: #FFFFFF;
+border-radius: 80px;
+    }
+    .bar {
+        position: absolute;
+width: 734px;
+height: 18px;
+left: 583px;
+top: 2042px;
+
+background: #FFFFFF;
+border-radius: 80px;
     }
     .Background1 {
         background-color: #171717;
@@ -566,6 +661,42 @@ color: #FFFFFF;
     line-height: 54px;
     color: #FFFFFF;
     
+    }
+    .toptitle a{
+        text-decoration: none;
+        z-index: 2;
+        display: flex;
+      justify-content: space-between;
+      position: fixed;
+    width: 162px;
+    height: 54px;
+    left: 41px;
+    top: 12px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    
+    }
+    .twi {
+        position: absolute;
+width: 1900px;
+height: 61px;
+left: 0px;
+top: 2128px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+
     }
     .playdiv {
         z-index: 2;
@@ -1123,6 +1254,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
         
         color: #FFFFFF;
     }
+
 }
 
 
