@@ -559,6 +559,15 @@ border-radius: 80px;
     
     background: #FFFFFF;
 }
+.live2 {
+    position: absolute;
+    width: 397px;
+    height: 253px;
+    left: 18px;
+    top: 4035px;
+    
+    background: #FFFFFF;
+}
 @media screen and (min-width: 800px) {
     * {margin: 0;
         padding: 0;
@@ -578,6 +587,18 @@ border-radius: 80px;
         background-color: #171717;
     
     }
+    .live2 {
+        position: absolute;
+        width: 1105px;
+        height: 509px;
+        left: 398px;
+        top: 2978px;
+        
+        background: #FFFFFF;
+        background: #FFFFFF;
+        
+        background: #FFFFFF;
+            }
     .live {
 position: absolute;
 width: 1105px;
