@@ -249,3 +249,22 @@ color: #FFFFFF;
         color: #FFFFFF;
 
     }
+    .image { 
+        position: absolute;
+width: 584px;
+height: 323px;
+left: 73px;
+top: 973px;
+
+background: #FFFFFF;
+    }
+    .image2 {
+        
+position: absolute;
+width: 584px;
+height: 323px;
+left: 73px;
+top: 1385px;
+
+background: #FFFFFF;
+    }

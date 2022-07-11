@@ -198,8 +198,8 @@ color: #FFFFFF;
     position: absolute;
 width: 91px;
 height: 27px;
-left: 337px;
-top: 201px;
+left: 9px;
+top: 242px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -207,7 +207,6 @@ font-weight: 900;
 font-size: 16px;
 line-height: 24px;
 
-color: #FFFFFF;
 }
 .title {
     position: absolute;
@@ -559,15 +558,26 @@ border-radius: 80px;
     
     background: #FFFFFF;
 }
-.live2 {
+
+.art2:hover .article4title a{
+    text-decoration: none;
+    transition: 0.8s;
     position: absolute;
-    width: 397px;
-    height: 253px;
-    left: 18px;
-    top: 4035px;
+    width: 340px;
+    height: 38px;
+    left: 10px;
+    top: 156px;
     
-    background: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #FFFFFF;
 }
+
 @media screen and (min-width: 800px) {
     * {margin: 0;
         padding: 0;
@@ -583,22 +593,22 @@ border-radius: 80px;
         *::-webkit-scrollbar {
             width: 9px;
           }
-    .Background {
+    .paint {
+        opacity: 0.5;
+        position: absolute;
+width: 1863px;
+height: 824px;
+left: 21px;
+top: 0px;
+
+
+    }
+    
+    
+          .Background {
         background-color: #171717;
     
     }
-    .live2 {
-        position: absolute;
-        width: 1105px;
-        height: 509px;
-        left: 398px;
-        top: 2978px;
-        
-        background: #FFFFFF;
-        background: #FFFFFF;
-        
-        background: #FFFFFF;
-            }
     .live {
 position: absolute;
 width: 1105px;
@@ -1274,6 +1284,22 @@ transform: matrix(1, 0, 0, -1, 0, 0);
         text-align: center;
         
         color: #FFFFFF;
+    }
+    .art2:hover .articledivtitle {
+        transition: 0.8s;
+        position: absolute;
+        opacity: 100%;
+        width: 370px;
+        height: 68px;
+        left: -2px;
+        top: 148px;
+        
+
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+transform: matrix(1, 0, 0, -1, 0, 0);
     }
 
 }
