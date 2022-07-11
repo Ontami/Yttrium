@@ -20,7 +20,7 @@ window.addEventListener('scroll' , () => {
 });
 const nav3 = document.querySelector('.vipframe2')
 window.addEventListener('scroll' , () => {
-    if(window.scrollY > 300) {
+    if(window.scrollY > 200) {
         nav3.classList.add('vipframe');
         nav3.classList.remove('vipframe2');
     } else {

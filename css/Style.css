@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {margin: 0;
 padding: 0;
 outline: 0;
@@ -577,6 +578,63 @@ border-radius: 80px;
     
     color: #FFFFFF;
 }
+.boutonvip {
+    position: absolute;
+width: 163px;
+height: 31px;
+left: 32px;
+top: 312px;
+
+background: #FFFFFF;
+}
+.boutonvipbar1 {
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 0px;
+
+background: rgba(205, 205, 205, 0.5);
+}
+.boutonvipbar2 {
+    position: absolute;
+width: 5px;
+height: 31px;
+left: 0px;
+top: 0px;
+
+background: rgba(205, 205, 205, 0.5);
+}
+.boutonvipbar3 {
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 26px;
+
+background: rgba(205, 205, 205, 0.2);
+}
+.textvip a{
+    text-decoration: none;
+    position: absolute;
+width: 140px;
+height: 20px;
+left: 11px;
+top: 6px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+text-align: center;
+
+background: linear-gradient(234.51deg, #FFBF43 0%, #D04BFF 100%), linear-gradient(180deg, #FFBF43 0%, rgba(255, 191, 67, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
 
 @media screen and (min-width: 800px) {
     * {margin: 0;
@@ -593,6 +651,110 @@ border-radius: 80px;
         *::-webkit-scrollbar {
             width: 9px;
           }
+.textvip a{
+    text-decoration: none;
+    position: absolute;
+width: 140px;
+height: 20px;
+left: 11px;
+top: 6px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+text-align: center;
+
+background: linear-gradient(234.51deg, #FFBF43 0%, #D04BFF 100%), linear-gradient(180deg, #FFBF43 0%, rgba(255, 191, 67, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.boutonvip {
+    transition: 0.2s;
+position: absolute;
+width: 163px;
+height: 31px;
+left: 49px;
+top: 328px;
+
+background: #FFFFFF;
+}
+.boutonvipbar1 {
+    transition: 0.2s;
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 0px;
+
+background: rgba(205, 205, 205, 0.5);
+}
+.boutonvipbar2 {
+    transition: 0.2s;
+    position: absolute;
+width: 5px;
+height: 31px;
+left: 0px;
+top: 0px;
+
+background: rgba(205, 205, 205, 0.5);
+}
+.boutonvipbar3 {
+    transition: 0.2s;
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 26px;
+
+background: rgba(205, 205, 205, 0.2);
+}
+.boutonvip:hover .boutonvipbar1 {
+    transition: 0.2s;
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 0px;
+
+background: rgba(219, 219, 219, 0.5);
+}
+.boutonvip:hover .boutonvipbar2 {
+    transition: 0.2s;
+    position: absolute;
+    width: 5px;
+    height: 31px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(219, 219, 219, 0.5);
+}
+.boutonvip:hover .boutonvipbar3 {
+    transition: 0.2s;
+    position: absolute;
+width: 163px;
+height: 5px;
+left: 0px;
+top: 26px;
+
+background: rgba(219, 219, 219, 0.5);
+}
+.boutonvip:hover {
+    transition: 0.2s;
+    position: absolute;
+width: 163px;
+height: 31px;
+left: 49px;
+top: 328px;
+
+background: rgba(235, 235, 235, 0.986);
+}
+
+
+
     .paint {
         opacity: 0.5;
         position: absolute;
@@ -1158,6 +1320,13 @@ background: rgba(255, 255, 255, 0.1);
 box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(6px);
 transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .art2:hover {
+        transition: 0.2s;
+        width: 370px;
+    height: 221px;
+    left: 1282px;
+    top: 734px;
     }
     .articledivtitle {
 
