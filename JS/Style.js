@@ -28,3 +28,24 @@ window.addEventListener('scroll' , () => {
         nav3.classList.remove('vipframe');
     }
 });
+
+
+const nav4 = document.querySelector('.load')
+window.addEventListener('scroll' , () => {
+    if(window.scrollY > 649) {
+        nav4.classList.add('load');
+        nav4.classList.remove('load2');
+    } else {
+        nav4.classList.add('load2');
+        nav4.classList.remove('load');
+    }})
+    const nav5 = document.querySelector('.loadbar')
+    window.addEventListener('scroll' , () => {
+        if(window.scrollY > 649) {
+            nav5.classList.add('loadbar');
+            nav5.classList.remove('loadbar2');
+        } else {
+            nav5.classList.add('loadbar2');
+            nav5.classList.remove('loadbar');
+        }})
+    
