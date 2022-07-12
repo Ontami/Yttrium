@@ -136,7 +136,8 @@ height: 49px;
 left: 19px;
 top: 97px;
 }
-.wiki {
+.wiki a{
+    text-decoration: none;
     position: absolute;
 width: 49px;
 height: 27px;
@@ -151,7 +152,8 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
-.vote {
+.vote a{
+    text-decoration: none;
     position: absolute;
 width: 53px;
 height: 27px;
@@ -635,7 +637,74 @@ background: linear-gradient(234.51deg, #FFBF43 0%, #D04BFF 100%), linear-gradien
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+.bar3 {
+    position: absolute;
+width: 237px;
+height: 18px;
+left: 93px;
+top: 4502px;
 
+background: #FFFFFF;
+border-radius: 80px;
+}
+.yttriumserver {
+    position: absolute;
+width: 337px;
+height: 61px;
+left: 48px;
+top: 3808px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.divserver {
+    position: absolute;
+width: 251px;
+height: 455px;
+left: 89px;
+top: 3984px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+}
+.violet {
+    width: 0px;
+height: 0px;
+left: 0px;
+top: 0px;
+}
+.violeticon {
+    position: absolute;
+    opacity: 0;
+}
+.violeticon2 {
+    position: absolute;
+    opacity: 0;
+}
+.textservercreate {
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    left: 29px;
+    top: 395px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
 @media screen and (min-width: 800px) {
     * {margin: 0;
         padding: 0;
@@ -651,6 +720,111 @@ background-clip: text;
         *::-webkit-scrollbar {
             width: 9px;
           }
+.textservercreate {
+    text-align: right;
+position: absolute;
+width: 444px;
+height: 25px;
+left: 1019px;
+top: 186px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 15px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+.violeticon {
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+width: 125px;
+height: 125px;
+left: 0px;
+top: 0px;
+}
+.violeticon2 {
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+height: 100px;
+left: 21px;
+top: 22px;
+}
+.violet:hover .violeticon {
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+width: 125px;
+height: 125px;
+left: 0px;
+top: 0px;
+}
+          .violet {
+            
+position: absolute;
+width: 125px;
+height: 125px;
+left: 669px;
+top: 43px;
+
+background: #FFFFFF;
+border-radius: 8px;
+          }
+          .violet:hover {
+            transition: 0.2s;
+            width: 143px;
+            height: 143px;
+left: 660px;
+top: 34px;
+
+background: #FFFFFF;
+border-radius: 8px;
+          }
+.divserver {
+    position: absolute;
+width: 1463px;
+height: 211px;
+left: 219px;
+top: 3048px;
+
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(6px);
+}
+.yttriumserver {
+    position: absolute;
+width: 1900px;
+height: 61px;
+left: 0px;
+top: 2950px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.bar3 {
+    position: absolute;
+width: 734px;
+height: 18px;
+left: 583px;
+top: 3379px;
+
+background: #FFFFFF;
+border-radius: 80px;
+}
 .textvip a{
     text-decoration: none;
     position: absolute;
@@ -930,7 +1104,8 @@ color: #FFFFFF;
     top: 115px;
     
     }
-    .wiki {
+    .wiki a{
+        text-decoration: none;
         position: absolute;
     width: 60px;
     height: 36px;
@@ -944,7 +1119,8 @@ color: #FFFFFF;
     line-height: 36px;
     color: #FFFFFF;
     }
-    .vote {
+    .vote a{
+        text-decoration: none;
         position: absolute;
     width: 66px;
     height: 36px;

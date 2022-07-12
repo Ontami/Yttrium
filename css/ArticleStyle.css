@@ -107,7 +107,8 @@
     top: 115px;
     
     }
-    .wiki {
+    .wiki a{
+        text-decoration: none;
         position: absolute;
     width: 60px;
     height: 36px;
@@ -121,7 +122,8 @@
     line-height: 36px;
     color: #FFFFFF;
     }
-    .vote {
+    .vote a{
+        text-decoration: none;
         position: absolute;
     width: 66px;
     height: 36px;
